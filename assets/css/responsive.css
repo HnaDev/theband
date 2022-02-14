@@ -1,0 +1,44 @@
+/* table */
+
+@media (min-width: 740px) and (max-width:1023px){
+    
+}
+
+/* pc */
+@media (min-width: 1024px){
+    
+}
+
+/* mobile */
+@media (max-width: 740px){
+    #header .search-btn{
+        display: none;
+    }
+    #header .mobile-menu-btn{
+        display: block;
+    }
+    #header{
+        overflow: hidden;
+    }
+    #nav{
+        display: block;
+    }
+    #nav > li {
+        display: block;
+    }
+    #nav > li:first-child{
+        display: inline-block;
+    }
+    #nav .subnav{
+        position: initial;
+        background-color: black;
+    }
+    #nav .subnav a{
+        color: #fff;
+        padding: 5px 42px;
+    }
+    #nav li a{
+        padding: 1 24px;
+    }
+
+}
